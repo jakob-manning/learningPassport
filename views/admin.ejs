@@ -1,0 +1,7 @@
+<h1 class="mt-4">Admin Dashboard</h1>
+<p>Welcome to the admin dashboard. Here we will display all users and allow you to remove them.</p>
+<ol>
+    <% users.forEach(function(user){ %>
+        <li><%= user.name %> - <%= user.email %> </li>
+    <% }) %>
+</ol>

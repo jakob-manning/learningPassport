@@ -55,6 +55,17 @@ const userModel = {
 
     return user
   },
+  findUserTypeById: (id) => {
+    let userType;
+
+    try{
+      const user = userModel.findById(id)
+      userType = user.role
+    }catch (e) {
+      throw new Error(`Unable to verify user. User may not be authenticated via local strategy.`);
+    }
+    return userType
+  },
 };
 
 module.exports = { database, userModel };
