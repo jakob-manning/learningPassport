@@ -1,5 +1,5 @@
 # To run:
-* add a .env file with github (and facebook) credentials
+* add a .env file to the root directory with github (and facebook) credentials
 * run _node server.js_
 * voilà!
 
