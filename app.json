@@ -1,0 +1,8 @@
+{
+  "name": "Learning Passport",
+  "description": "Playing with authentication methods",
+  "repository": "https://github.com/jakob-manning/learningPassport",
+  "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+  "keywords": ["node", "express", "passport"],
+  "image": "heroku/nodejs"
+}
