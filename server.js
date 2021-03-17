@@ -3,7 +3,7 @@ const express = require("express");
 const expressLayouts = require("express-ejs-layouts");
 const session = require("express-session");
 const path = require("path");
-const port = process.env.port || 5002;
+const port = process.env.PORT || 5002;
 
 const app = express();
 
