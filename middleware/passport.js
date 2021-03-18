@@ -41,7 +41,7 @@ passport.use(new GitHubStrategy(
 passport.use(new FacebookStrategy({
         clientID: process.env['FACEBOOK_CLIENT_ID'],
         clientSecret: process.env['FACEBOOK_SECRET'],
-        callbackURL: '/auth/returnFacebook'
+        callbackURL: process.env.FACEBOOK_RETURN_URL
     },
     function(accessToken, refreshToken, profile, cb) {
         // In this example, the user's Facebook profile is supplied as the user
