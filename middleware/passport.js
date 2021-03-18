@@ -24,7 +24,7 @@ passport.use(new GitHubStrategy(
     {
         clientID: process.env.GITHUB_CLIENT_ID,
         clientSecret: process.env.GITHUB_SECRET,
-        callbackURL: "/auth/returnGitHub"
+        callbackURL: process.env.GITHUB_RETURN_URL
     },
     function(accessToken, refreshToken, user, cb){
         // In this example, the user's GitHub profile is supplied as the user
