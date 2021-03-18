@@ -10,3 +10,6 @@ _Note: As you may notice, this server doesn't use a database and passwords are n
   * username:jimmy123@gmail.com
   * password:jimmy123!
 * navigate to **/admin**
+
+## Live Demo - hosted on Heroku:
+https://learningpassport.herokuapp.com/
